@@ -1,3 +1,6 @@
+import java.util.Scanner;
+
 void main(String[] args) {
-    System.out.printf("Hola mundo");
+    Scanner sc = new Scanner(System.in);
+    System.out.printf("Hola mundo Tengo algo nuevo");
 }
