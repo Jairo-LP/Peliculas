@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>🎮 Biblioteca de Juegos de Terror</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: #fff;
+        }
+
+        header {
+            background: #140000;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid red;
+        }
+
+        header h1 {
+            margin: 0;
+            color: red;
+        }
+
+        nav {
+            background: #111;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px red;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+        .card h3 {
+            margin: 5px 0;
+            color: red;
+        }
+
+        footer {
+            background: #140000;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>👻 Biblioteca de Juegos de Terror</h1>
+    <p>Explora los juegos más escalofriantes</p>
+</header>
+
+<nav>
+    <a href="index.html">Inicio </a>
+    <a href="index.html">Categorías</a>
+    <a href="index.html">Populares</a>
+    <a href="index.html">Contacto</a>
+</nav>
+
+<div class="container">
+    <h2>🎮 Catálogo</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/9d/Resident_Evil_4_Box_Art.jpg">
+            <div class="card-content">
+                <h3>Resident Evil 4</h3>
+                <p>Año: 2005</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Outlast_cover.jpg">
+            <div class="card-content">
+                <h3>Outlast</h3>
+                <p>Año: 2013</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Amnesia_The_Dark_Descent_cover.jpg">
+            <div class="card-content">
+                <h3>Amnesia</h3>
+                <p>Año: 2010</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Silent_Hill_2_cover.jpg">
+            <div class="card-content">
+                <h3>Silent Hill 2</h3>
+                <p>Año: 2001</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Biblioteca de Juegos de Terror</p>
+</footer>
+
+</body>
+</html>
